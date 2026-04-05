@@ -48,7 +48,7 @@ jobs:
       - name: Deploy application
         run: |
           # Navigate to your app directory on EC2
-          cd /home/ubuntu/app
+          cd /home/ubuntu/OSTAD-Assignment-module-3
           # Pull latest code
           git pull origin main
           # Install production dependencies only
